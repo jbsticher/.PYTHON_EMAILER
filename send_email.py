@@ -40,7 +40,7 @@ def send_email(to_email: str, subject: str, body: str, image: str | None = None)
         print('Sent!')
 
 if __name__ == '__main__':
-    send_email(to_email='john.sticher@outlook.com', 
+    send_email(to_email='you@youremail.com', 
                subject='Did you get this cat image?',
                body = 'Hello, here is a random photo of a cat.',
                image='./images/cat.jpg')
